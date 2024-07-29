@@ -1,0 +1,150 @@
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #333; }
+
+      main {
+      display: flex;
+      flex-direction: column;   
+      align-items: center;
+      
+      justify-content: center;
+      height: calc(90vh - 100px);
+      }
+
+      .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #a8a2a2;
+      padding: 40px;
+      border-radius: 3px;
+      box-shadow: 0 0 10px rgba(175, 138, 138, 0.1);
+      width: 500px;
+      margin-bottom: 20px;
+    }
+
+    input[type=email], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      /* Defina aqui o tamanho desejado para o input, mantendo a proporção */
+      height: 50px; /* Exemplo de valor para a propriedade height */
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    
+    }
+
+    .toggle-password {
+      padding: 12px 20px;
+      cursor: pointer;
+      background-color: #f5f8f5;
+      border-radius: 4px;
+      box-sizing: border-box
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    
+    .forgot-password {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .remember-password {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    label {
+      font-size: 16px;
+    }
+    
+    .social-login {
+      text-align: center;
+      margin-top: 20px;
+    }
+   
+    .social-login a {
+      display: inline-block;
+      margin: 0 5px;
+    }
+      
+    .background-image {    
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .social-icon {
+      font-size: 30px;
+      margin: 0 6px;
+      cursor: pointer;
+    }
+
+    .social-icon i {
+      color: #252121;
+    }
+
+    .form-control {
+      border-radius: 10px; /* Define a borda arredondada */
+      padding: 12px 30px; /* Ajusta o espaçamento interno */
+      font-size: px; /* Ajusta o tamanho da fonte */
+      width: 150px; /* Define a largura desejada */
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      font-size: 24px;
+      padding: 5px 10px; /* Adiciona espaço interno */
+      
+      
+    }
+
+    .form-inline { 
+      display: flex; /* Para o conteúdo da form */
+  
+    }
